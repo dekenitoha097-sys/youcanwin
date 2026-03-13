@@ -4,7 +4,7 @@ Site web frontend pour YouCanWin, une plateforme marketing digitale pour les mar
 
 ## Description
 
-Application React/Vite avec Tailwind CSS présentant les fonctionnalités de la plateforme YouCanWin :
+Application React/Vite présentant les fonctionnalités de la plateforme YouCanWin :
 - Activation produit par QR codes
 - Collection digitale de cartes
 - Système de récompenses et tirages au sort
@@ -15,7 +15,6 @@ Application React/Vite avec Tailwind CSS présentant les fonctionnalités de la 
 
 - **React** 19.x
 - **Vite** 8.x
-- **Tailwind CSS** 4.x
 - **Lucide React** (icônes)
 
 ## Installation

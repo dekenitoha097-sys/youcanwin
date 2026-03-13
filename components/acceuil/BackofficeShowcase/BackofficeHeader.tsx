@@ -8,7 +8,7 @@ const BackofficeHeader = () => {
         <span>Backoffice tout-en-un</span>
       </div>
 
-      <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900 mb-6">
+      <h1 className="text-4xl md:text-5xl font-extrabold text-slate-900">
         Gérez tout depuis une interface unique
       </h1>
       <p className="text-lg text-gray-600 max-w-3xl mx-auto mb-16">

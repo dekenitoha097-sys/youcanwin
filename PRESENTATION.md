@@ -2,7 +2,7 @@
 
 ## Introduction (30 secondes)
 
-> "Bonjour, je vais vous présenter le projet sur lequel j'ai travaillé. Il s'agit d'un site landing page pour YouCanWin, une plateforme de jeux digitaux autour du football. J'ai réalisé ce projet avec React, TypeScript et Tailwind CSS."
+> "Bonjour, je vais vous présenter le projet sur lequel j'ai travaillé. Il s'agit d'un site landing page pour YouCanWin, une plateforme de jeux digitaux autour du football. J'ai réalisé ce projet avec React et TypeScript."
 
 ---
 
@@ -46,7 +46,7 @@
 
 ## Conclusion (20 secondes)
 
-> "Pour résumer, ce projet ma permis de démontrer mes compétences en React, TypeScript, Tailwind CSS et en organisation de composants. Merci pour votre attention !"
+> "Pour résumer, ce projet ma permis de démontrer mes compétences en React, TypeScript et en organisation de composants. Merci pour votre attention !"
 
 ---
 

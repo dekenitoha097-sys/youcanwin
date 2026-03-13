@@ -48,7 +48,7 @@ const FeaturesBar = () => {
     ];
 
     return (
-        <div className="w-full bg-white py-12 border-y border-gray-100">
+        <div className="w-full bg-white mt-12 py-12 border-y border-gray-100">
             <div className="max-w-7xl mx-auto px-4">
                 <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-8 md:gap-4">
                     {data.map((item, index) => (
