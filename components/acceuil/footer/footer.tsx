@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Linkedin, Twitter, ExternalLink, ShieldCheck } from 'lucide-react';
+import { Facebook, Instagram, Linkedin, Twitter, ExternalLink, ShieldCheck, Trophy } from 'lucide-react';
 
 const Footer = () => {
   const currentYear = new Date().getFullYear();
@@ -15,7 +15,7 @@ const Footer = () => {
           <div className="md:col-span-5">
             <div className="flex items-center gap-2 mb-6">
               <div className="bg-[#10a34f] p-1.5 rounded-lg">
-                <div className="text-white font-bold text-xl leading-none">🏆</div>
+                <div className="text-white font-bold text-xl leading-none"> <Trophy size={20}/></div>
               </div>
               <span className="text-2xl font-bold tracking-tight">
                 <span className="text-red-600">You</span>canwin

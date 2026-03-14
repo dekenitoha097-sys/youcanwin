@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Menu, X } from 'lucide-react';
+import { Menu, X,Trophy } from 'lucide-react';
 
 export default function Header() {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -17,20 +17,14 @@ export default function Header() {
         
         {/* LOGO ET NOM */}
         <div className="flex items-center gap-3">
-          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-emerald-600 text-white shadow-sm">
-            <svg
-              aria-hidden="true"
-              className="h-5 w-5"
-              fill="currentColor"
-              viewBox="0 0 24 24"
-            >
-              <path d="M4 5a1 1 0 0 1 1-1h2.2A5.99 5.99 0 0 1 12 2a5.99 5.99 0 0 1 4.8 2H19a1 1 0 0 1 1 1v2a4 4 0 0 1-4 4h-1.1A5.99 5.99 0 0 1 13 13.92V16h3a1 1 0 1 1 0 2h-3v1a1 1 0 1 1-2 0v-1H8a1 1 0 1 1 0-2h3v-2.08A5.99 5.99 0 0 1 9.1 11H8a4 4 0 0 1-4-4V5Zm3.4 1H6v1a2 2 0 0 0 2 2h.35A5.98 5.98 0 0 1 7.4 6Zm9.2 0a5.98 5.98 0 0 1-.95 3H16a2 2 0 0 0 2-2V6h-1.4Z" />
-            </svg>
+          <div className="flex h-10 w-10 items-center justify-center rounded-xl bg-gradient-to-r from-emerald-700 to-emerald-500 text-white shadow-sm">
+            <Trophy size={20}/>
           </div>
           <div className="flex items-center gap-2">
-            <span className="text-lg font-semibold tracking-tight text-slate-900">
-              <span className="text-red-500">You</span>
-              <span className="text-emerald-600">canwin</span>
+            <span className="text-lg font-bold tracking-tight text-slate-900">
+              <span className="text-red-600">You</span>
+              <span >can</span>
+               <span className="text-emerald-600">win</span>
             </span>
             <span className="rounded-full bg-emerald-100 px-2 py-0.5 text-[10px] font-semibold uppercase tracking-wide text-emerald-700">
               Games
